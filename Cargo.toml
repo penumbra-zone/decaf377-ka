@@ -2,6 +2,8 @@
 name = "decaf377-ka-min"
 version = "0.1.0"
 edition = "2021"
+description = "Key agreement over decaf377"
+license = "MIT OR Apache-2.0"
 
 [features]
 default = ["std"]
