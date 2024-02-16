@@ -6,7 +6,8 @@ use core::fmt;
 
 use decaf377;
 use rand_core::{CryptoRng, RngCore};
-use zeroize::Zeroize;
+use zeroize::Zeroize as _;
+use zeroize_derive::Zeroize;
 
 /// A public key sent to the counterparty in the key agreement protocol.
 ///
